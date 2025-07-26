@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f8f8f8;
+}
+
+.container {
+  display: flex;
+  max-width: 1000px;
+  margin: auto;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+  background-color: #f44336;
+  color: white;
+  padding: 20px;
+  width: 30%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.contact p,
+.skills ul {
+  font-size: 0.9rem;
+  margin: 10px 0;
+}
+
+.skills h3 {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 5px;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills li {
+  margin: 5px 0;
+}
+
+.content {
+  padding: 30px;
+  width: 70%;
+  box-sizing: border-box;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+header h2 {
+  margin: 5px 0;
+  font-size: 1.2rem;
+  color: #c62828;
+}
+
+header p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-top: 10px;
+}
+
+section h3 {
+  color: #c62828;
+  margin-top: 30px;
+  font-size: 1.3rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+}
+
+.job {
+  margin-top: 20px;
+}
+
+.job h4 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.date-location {
+  font-size: 0.85rem;
+  color: #777;
+  margin: 5px 0;
+}
+
+.job ul {
+  margin: 0;
+  padding-left: 20px;
+  font-size: 0.95rem;
+  color: #444;
+}
